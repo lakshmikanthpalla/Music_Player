@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img.freepik.com/free-vector/gradient-music-notes-background_23-2151320190.jpg?semt=ais_hybrid&w=740");
+  background-size: cover;
+  /* background: linear-gradient(to right, #ffcccc, #ccffcc); */
+  font-family: Arial, sans-serif;
+}
+
+.player {
+  background: rgba(155, 30, 134, 0.314);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.cover {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #fff;
+}
+
+.title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #dc2626;
+  margin-bottom: 5px;
+}
+
+.song-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #34d399;
+  margin-bottom: 10px;
+}
+
+.progress {
+  width: 100%;
+  appearance: none;
+  height: 5px;
+  background: #e2e8f0;
+  outline: none;
+  margin: 10px 0;
+}
+
+.controls {
+  display: flex; /* Use flexbox to arrange items in a row */
+  justify-content: center; /* Center the buttons horizontally */
+  margin-top: 10px; /* Optional: Add spacing above controls */
+}
+
+.controls button {
+  background: #4a5568;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lyrics {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #2d3748;
+  min-height: 50px;
+}
